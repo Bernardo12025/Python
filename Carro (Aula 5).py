@@ -4,7 +4,7 @@ if(idadecarro>10):
 
  print("O carro é antigo.")
 
-elif (idadecarro>5):
+elif(idadecarro>5):
     print("O carro é seminovo.")
 
 else:
