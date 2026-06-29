@@ -4,8 +4,7 @@ import tkinter as tk
 def abrir_root2():
     root2 = tk.Toplevel(root)  
     root2.title("Janela 2")
-    root2.geometry("300x200")
-    roxo = '#dd00ff'
+   
     root.configure(bg=roxo)
     lb2 = tk.Label(root2, text="Escreve algo:")
     lb2.place(x=50, y=20)
@@ -21,8 +20,7 @@ def abrir_root3():
     root3 = tk.Toplevel(root)
     root3.title("Janela 3")
     root3.geometry("300x200")
-    roxo = '#dd00ff'
-    root.configure(bg=roxo)
+   
     lb3 = tk.Label(root3, text="Escreve outra coisa:")
     lb3.place(x=50, y=20)
 
